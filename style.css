@@ -1,0 +1,161 @@
+body {
+	margin: 0;
+	line-height: 1.6;
+}
+.header {
+	width: 100%;
+	height: 90px;
+	background: linear-gradient(to top, rgb(83, 172, 245), rgb(8, 34, 56));
+}
+.header_inner {
+	width: 100%;
+	max-width: 1300px;
+	margin: 0 auto;
+	font-size: 50px;
+	font-family: 'Oswald', sans-serif;
+	color: white;
+	flex: 1 1 auto;
+	display: flex;
+	justify-content: space-between;
+}
+.nav {
+	width: 100%;
+	max-width: 700px;
+	display: flex;
+	justify-content: space-between;
+}
+.nav_link:hover {
+	color: rgb(255, 196, 0);
+	text-shadow: 0 0 15px rgb(255, 196, 0);
+	transform: scale(0.8, 0.8);
+	transition: 0.3s;
+}
+
+section {
+	width: 100%;
+	background: url('images/Kosmos.jpg');
+	background-size: cover;
+}
+.section {
+	width: 100%;
+	position: relative;
+	background-color: rgba(0, 0, 0, 0.47);
+}
+.intro {
+	width: 100%;
+	max-width: 1300px;
+	height: 700px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+.image {
+	margin: auto;
+}
+.img_sun {
+	width: 600px;
+}
+.intro_ {
+	width: 100%;
+	max-width: 650px;
+	color: rgb(234, 243, 250);
+	margin: auto;
+}
+.intro_title {
+	font-size: 50px;
+	font-family: 'Permanent Marker', cursive;
+	text-align: center;
+}
+.intro_text {
+	font-size: 30px;
+	font-family: 'PT Sans Narrow', sans-serif;
+}
+.title {
+	font-size: 50px;
+	font-family: 'Permanent Marker', cursive;
+	text-align: center;
+	color: white;
+	padding-bottom: 20px;
+}
+.info {
+	width: 100%;
+	max-width: 1300px;
+	display: flex;
+	justify-content: space-between;
+	margin: 0 auto;
+}
+.planets {
+	width: 100%;
+	max-width: 630px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.planet {
+	width: 100%;
+	max-width: 600px;
+	height: 300px;
+	display: flex;
+	justify-content: space-between;
+}
+.img img {
+	width: 250px;
+}
+.planet_text {
+	width: 100%;
+	max-width: 200px;
+	font-family: 'PT Sans Narrow', sans-serif;
+	color: white;
+	margin: auto;
+}
+.pl_title {
+	font-size: 30px;
+	text-align: center;
+}
+.pl_text {
+	font-size: 17px;
+}
+.games {
+	width: 100%;
+	max-width: 1300px;
+	margin: 0 auto;
+	height: 700px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding-bottom: 20px;
+}
+.games1 {
+	display: flex;
+	justify-content: space-between;
+}
+.game {
+	width: 290px;
+	height: 305px;
+	background: rgb(85, 138, 238);
+	box-shadow: 0 0 10px rgb(85, 138, 238);
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	margin: 0 auto;
+}
+.game:hover {
+	transform: scale(1.2, 1.2);
+	transform: translate(-15px, -15px);
+	box-shadow: 0 0 60px rgb(44, 101, 207);
+	transition: 0.3s;
+}
+.game_img {
+	display: block;
+	width: 200px;
+	height: 200px;
+	margin: 0 auto;
+}
+.name {
+	width: 200px;
+	font-size: 45px;
+	font-family: 'Permanent Marker', cursive;
+	text-align: center;
+	color: white;
+	margin: 0 auto;
+}
